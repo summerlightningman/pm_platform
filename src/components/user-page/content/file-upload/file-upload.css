@@ -1,0 +1,44 @@
+.file-upload {
+    width: 90%;
+    height: 100%;
+    background: #fffec1;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.file-upload > * {
+    margin-top: 30px;
+}
+
+.progressbar-outer {
+    width: 400px;
+    height: 30px;
+    border: 1px solid tomato;
+    border-radius: 5px;
+}
+
+.progressbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 450px;
+}
+
+.progressbar-inner {
+    height: 100%;
+    background: tomato;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+.upload-error {
+    color: red;
+    margin: 0;
+    font-size: 16px;
+}

@@ -1,0 +1,73 @@
+.settings {
+    position: fixed;
+    right: 0;
+    height: 90vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.settings-inner {
+    width: 20vw;
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #cdffba;
+    padding: 10px 30px;
+}
+
+.settings-button {
+    width: 30px;
+    height: 100px;
+    border: none;
+    background: #cecece;
+    color: black;
+    cursor: pointer;
+}
+
+.settings-button:hover {
+    background: #919191;
+    color: white;
+}
+
+.settings-label {
+    color: black;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.form-control > select {
+    width: 100%;
+}
+
+.cluster-block {
+    background: darkgreen;
+    width: 100%;
+    padding: 10px;
+}
+
+input[type=number] {
+    width: 100%;
+}
+
+.cluster-label {
+    color: white;
+}
+
+.cluster-list {
+    background: white;
+    padding: 0;
+}
+
+.cluster-list-item {
+    list-style-type: none;
+}
+
+.settings-execute-button {
+    width: 100%;
+}

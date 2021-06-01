@@ -1,0 +1,109 @@
+.gallery {
+    position: fixed;
+    top: 2.5vh;
+    height: 95vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.gallery-button {
+    width: 30px;
+    height: 100px;
+    border: none;
+    cursor: pointer;
+    background: #cecece;
+    color: black;
+}
+
+.gallery-button:hover {
+    background: #919191;
+    color: white;
+}
+
+.gallery-inner {
+    width: 18vw;
+    height: 100vh;
+    background: #bcffb0;
+}
+
+.gallery-header {
+    height: 10vh;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: darkgray;
+}
+
+.gallery-header > span {
+    color: white;
+}
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+
+    padding: 5px 10px;
+    border-bottom: 1px solid #fffec1;
+
+    cursor: pointer;
+}
+
+.gallery-item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gallery-item-delete {
+    width: 20px;
+    height: 20px;
+    background: none;
+    cursor: pointer;
+    border: 1px solid #000A;
+    border-radius: 3px;
+}
+
+.gallery-item-delete:hover {
+    color: white;
+    border: 1px solid white;
+    background: #606060;
+}
+
+.gallery-item:hover {
+    background: green;
+}
+
+.gallery-item:hover > span {
+    color: white;
+}
+
+.gallery-item > span {
+    color: black;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+}
+
+.gallery-item-name {
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+}
+
+.gallery-item-added {
+    text-align: right;
+    color: gray;
+    font-style: italic;
+}
+
+.gallery-list {
+    padding: 0;
+    overflow-y: auto;
+    height: 90vh;
+}
